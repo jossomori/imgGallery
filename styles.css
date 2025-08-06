@@ -2,6 +2,16 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
@@ -16,4 +26,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+p{
+    max-width: 50%;
 }
