@@ -1,13 +1,13 @@
 
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: #aba5ff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .image{
     border: 5px solid green;
     border-radius: 10px;
-    height: 400px;
+    height: 400px; 
 }
 
 .link-button {
